@@ -3,6 +3,8 @@
 
 #include "EDK3\dev\buffer.h"
 
+#include <EDK3/dev/opengl.h>
+
 namespace iDK{
   namespace dev{
 
@@ -28,6 +30,9 @@ namespace iDK{
         virtual ~Buffer() {}
 
       private:
+
+        GLuint data_size_, buffer_id_;
+
         Buffer(const Buffer&);
         Buffer& operator=(const Buffer&);
 
