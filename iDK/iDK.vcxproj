@@ -82,14 +82,18 @@
   <ItemGroup>
     <ClCompile Include="src\buffer.cc" />
     <ClCompile Include="src\cube.cc" />
+    <ClCompile Include="src\gpumanager.cc" />
     <ClCompile Include="src\imaterial.cc" />
     <ClCompile Include="src\main.cc" />
     <ClCompile Include="src\program.cc" />
+    <ClCompile Include="src\shader.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cube.h" />
     <ClInclude Include="include\dev\buffer.h" />
+    <ClInclude Include="include\dev\gpumanager.h" />
     <ClInclude Include="include\dev\program.h" />
+    <ClInclude Include="include\dev\shader.h" />
     <ClInclude Include="include\imaterial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

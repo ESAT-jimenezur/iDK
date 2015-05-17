@@ -30,6 +30,12 @@
     <ClCompile Include="src\program.cc">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="src\shader.cc">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gpumanager.cc">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\dev\program.h">
@@ -42,6 +48,12 @@
       <Filter>include</Filter>
     </ClInclude>
     <ClInclude Include="include\cube.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dev\shader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dev\gpumanager.h">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>
