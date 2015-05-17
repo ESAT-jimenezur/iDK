@@ -84,6 +84,7 @@
     <ClCompile Include="src\cube.cc" />
     <ClCompile Include="src\imaterial.cc" />
     <ClCompile Include="src\main.cc" />
+    <ClCompile Include="src\program.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\cube.h" />
